@@ -1,0 +1,22 @@
+para criar um repósitório:
+ - ir em uma pasta para criar o repósitório
+ - $ git init
+ - responder as informações solicitadas
+
+para puxar os arquivos do repositório servidor:
+ - $ git pull 'endereco repositorio'
+
+para verificar o status do repositório:
+ - $ git status
+
+para linkar um repositório remoto com local:
+ - $ git remote add origin 'link do repositório'
+
+para adicionar os arquivos para o repositório local:
+ - $ git add *
+
+para realizar um commit no repositório local:
+ - $ git commit -m 'descricao'
+
+para enviar para o repositório remoto:
+ - $ git push origin master
