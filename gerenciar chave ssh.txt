@@ -1,0 +1,13 @@
+Para criar uma chave:
+ssh-keygen -t ed25519 -C seuemail@exemplo.com
+
+Depois ir para o diretório da chave, e obter o conteúdo da chave pública com o seguinte comando:
+cat 'chave pública'.pub
+
+Depois ir no github, entrar em opções do usuário, ir na opção SSH e adicionar a chave preenchendo os campos solicitados
+
+Depois executar os comandos 
+eval $(ssh-agent -s)
+ssh-add 'nome da chave privada'
+
+Pronto ! a chave estará configurada.
