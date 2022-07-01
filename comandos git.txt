@@ -1,22 +1,22 @@
-para criar um rep髎it髍io:
- - ir em uma pasta para criar o rep髎it髍io
+para criar um rep贸sit贸rio:
+ - ir em uma pasta para criar o rep贸sit贸rio
  - $ git init
- - responder as informa珲es solicitadas
+ - responder as informa莽玫es solicitadas
 
-para puxar os arquivos do reposit髍io servidor:
+para puxar os arquivos do reposit贸rio servidor:
  - $ git pull 'endereco repositorio'
 
-para verificar o status do reposit髍io:
+para verificar o status do reposit贸rio:
  - $ git status
 
-para linkar um reposit髍io remoto com local:
- - $ git remote add origin 'link do reposit髍io'
+para linkar um reposit贸rio remoto com local:
+ - $ git remote add origin 'link do reposit贸rio'
 
-para adicionar os arquivos para o reposit髍io local:
- - $ git add *
+para adicionar os arquivos para o reposit贸rio local:
+ - $ git add .
 
-para realizar um commit no reposit髍io local:
+para realizar um commit no reposit贸rio local:
  - $ git commit -m 'descricao'
 
-para enviar para o reposit髍io remoto:
+para enviar para o reposit贸rio remoto:
  - $ git push origin master
